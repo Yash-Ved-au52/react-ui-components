@@ -10,6 +10,8 @@ import {
   Sidebar6,
   Sidebar7,
   Sidebar8,
+  Card1,
+  Card2Example,
 } from "./components";
 
 export const routes = [
@@ -68,5 +70,15 @@ export const routes = [
     name: "Sidebar8",
     path: "/sidebars/sidebar-8",
     element: <Sidebar8 />,
+  },
+  {
+    name: "Card1",
+    path: "/cards/card-1",
+    element: <Card1 />,
+  },
+  {
+    name: "Card2",
+    path: "/cards/card-2",
+    element: <Card2Example />,
   },
 ];
